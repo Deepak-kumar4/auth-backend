@@ -17,16 +17,17 @@ npm install
 ```
 
 3. Setup Environment Variable
-   Create a `.env` file in the root folder and add:
 ```env
+Create a `.env` file in the root folder and add:
 DATABASE_URL="mysql://root:yourPassword@localhost:3306/authdb"
 JWT_SECRET="yourVerySecretKey"
 
 where authdb is the database name created in MySQL
 ```
-example:
+```example:
 DATABASE_URL="mysql://root:xyz12345@localhost:3306/authdb"
 JWT_SECRET=supersecretkey123
+```
 
 4. Setup mySQL Database
    Make sure MySQL is installed and running.
@@ -52,8 +53,9 @@ Now Test the API with Postman
 7. Signup Endpoints
 ```
 POST http://localhost:3000/auth/signup
+```
 **Body (JSON):**
-json
+```json
 {
   "name": "Deepak",
   "email": "deepak@example.com",
