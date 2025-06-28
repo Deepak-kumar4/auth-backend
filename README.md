@@ -42,20 +42,18 @@ npx prisma migrate dev --name init
 ```
 
 6. Start the Development Server
-``bash
+   
+```bash
 npm run dev
-```
 Server will start at: `http://localhost:3000`
+```
 
 Now Test the API with Postman
-``
 7. Signup Endpoints
-
 ```
 POST http://localhost:3000/auth/signup
-```
 **Body (JSON):**
-```json
+json
 {
   "name": "Deepak",
   "email": "deepak@example.com",
