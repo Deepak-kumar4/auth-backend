@@ -27,6 +27,7 @@ where authdb is the database name created in MySQL
 ```example:
 DATABASE_URL="mysql://root:xyz12345@localhost:3306/authdb"
 JWT_SECRET=supersecretkey123
+PORT=4000
 ```
 
 4. Setup mySQL Database
