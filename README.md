@@ -45,7 +45,6 @@ npx prisma migrate dev --name init
 ``bash
 npm run dev
 ```
-```
 Server will start at: `http://localhost:3000`
 
 Now Test the API with Postman
