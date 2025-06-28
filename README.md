@@ -21,6 +21,7 @@ npm install
 Create a `.env` file in the root folder and add:
 DATABASE_URL="mysql://root:yourPassword@localhost:3306/authdb"
 JWT_SECRET="yourVerySecretKey"
+PORT=4000
 
 where authdb is the database name created in MySQL
 ```
